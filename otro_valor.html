@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/columnas.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div><img src="img/Banco.png"></div>
+
+        <div><p>Digite la cantidad de dinero a retirar de $10.000 hasta un valor máximo de de $1.200.000</p></div>
+    </div>
+    <div>
+        <input type="number" inputmode="numeric" oninput="formatDecimal(this)">
+    </div>
+
+    <div class="grid-botones">
+        <div><a href="retiro.html" class="izq" id="cancelar">Cancelar</a></div>
+        <div><a href="resultado_saldo.html" class="der">Continuar</a></div>
+    </div>
+</body>
+</html>
