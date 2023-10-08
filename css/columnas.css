@@ -21,6 +21,12 @@ img{
     text-align: center;
 }
 
+.grid-digitos{
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
 a{
     margin: 10px;
     width: 200px;
@@ -37,15 +43,34 @@ a{
     padding-right: 5px;
     text-align: right;
 }
+
+.digito{
+    
+    width: 15px;
+    font-size: 20px;
+    
+    border-bottom-left-radius:20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+    
+    
+}
+
 .caja{
     
-    height: 200px;
-    width: 200px;
+    margin-top:30px;
     display: flex;
     flex-direction: column;
 
 }
 
+.caja-digito{
+
+    margin: 0;
+    
+}
 
 #derecha{
     align-items:flex-end;
